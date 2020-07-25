@@ -7,9 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 25 Jul 2020 16:24:31 +0800</lastBuildDate>
     
 	<atom:link href="http://scott.maclure.info/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>http://scott.maclure.info/tech/2020/hello-world/</link>
+      <pubDate>Sat, 25 Jul 2020 16:24:31 +0800</pubDate>
+      
+      <guid>http://scott.maclure.info/tech/2020/hello-world/</guid>
+      <description>Welcome Hello? Is this thing on? Good. Welcome to my tech blog. Here you will find all sorts of stuff that I&amp;rsquo;ve found interesting while working as a consultant and developer for cloud infrastructure and automation, with an eye for security &amp;amp; compliance concerns at scale.
+I also blog about stuff that I find interesting, strictly within the tech space. So that includes side-projects and whatnot.
+Disclaimer: All content here are my opinions alone, and do not formally represent those of my employers - past, present, or future.</description>
+    </item>
     
   </channel>
 </rss>

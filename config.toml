@@ -5,6 +5,9 @@ theme = "hello-friend-ng"
 paginate = 10
 publishdir = "docs"
 
+[permalinks]
+  posts = "/:year/:title/"
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"

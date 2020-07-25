@@ -3,19 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://scott.maclure.info/tech/blog/</loc>
+    <loc>http://scott.maclure.info/tech/2020/hello-world/</loc>
+    <lastmod>2020-07-25T16:24:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://scott.maclure.info/tech/tags/personal/</loc>
+    <lastmod>2020-07-25T16:24:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://scott.maclure.info/tech/posts/</loc>
+    <lastmod>2020-07-25T16:24:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://scott.maclure.info/tech/</loc>
-  </url>
-  
-  <url>
-    <loc>http://scott.maclure.info/tech/series/</loc>
+    <lastmod>2020-07-25T16:24:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>http://scott.maclure.info/tech/tags/</loc>
+    <lastmod>2020-07-25T16:24:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://scott.maclure.info/tech/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>http://scott.maclure.info/tech/series/</loc>
   </url>
   
 </urlset>

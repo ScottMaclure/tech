@@ -10,22 +10,55 @@
         <atom:link href="http://scott.maclure.info/tech/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>Hello World</title>
-            <link>http://scott.maclure.info/tech/posts/hello-world/</link>
+            <title>Hello, World!</title>
+            <link>http://scott.maclure.info/tech/2020/hello-world/</link>
             <pubDate>Sat, 25 Jul 2020 16:24:31 +0800</pubDate>
             
-            <guid>http://scott.maclure.info/tech/posts/hello-world/</guid>
-            <description>Rationale Hello? Is this thing on? Good. Welcome, humble reader, to my tech blog. Here you will find all sorts of stuff that I&amp;rsquo;ve found interesting while working as a consultant and developer for cloud infrastructure and automation, with an eye for security &amp;amp; compliance concerns at scale.
-Disclaimer: All content here are my opinions, and do not formally represent those of my employers, past, present or future.
-Whoami?  https://www.</description>
-            <content type="html"><![CDATA[<h2 id="rationale">Rationale</h2>
-<p>Hello? Is this thing on? Good. Welcome, humble reader, to my tech blog. Here you will find all sorts of stuff that I&rsquo;ve found interesting while working as a consultant and developer for cloud infrastructure and automation, with an eye for security &amp; compliance concerns at scale.</p>
-<p><strong>Disclaimer:</strong> All content here are my opinions, and do not formally represent those of my employers, past, present or future.</p>
-<h2 id="whoami">Whoami?</h2>
+            <guid>http://scott.maclure.info/tech/2020/hello-world/</guid>
+            <description>Welcome Hello? Is this thing on? Good. Welcome to my tech blog. Here you will find all sorts of stuff that I&amp;rsquo;ve found interesting while working as a consultant and developer for cloud infrastructure and automation, with an eye for security &amp;amp; compliance concerns at scale.
+I also blog about stuff that I find interesting, strictly within the tech space. So that includes side-projects and whatnot.
+Disclaimer: All content here are my opinions alone, and do not formally represent those of my employers - past, present, or future.</description>
+            <content type="html"><![CDATA[<h2 id="welcome">Welcome</h2>
+<p>Hello? Is this thing on? Good. Welcome to my tech blog. Here you will find all sorts of stuff that I&rsquo;ve found interesting while working as a consultant and developer for cloud infrastructure and automation, with an eye for security &amp; compliance concerns at scale.</p>
+<p>I also blog about stuff that I find interesting, strictly within the tech space. So that includes side-projects and whatnot.</p>
+<p><strong>Disclaimer:</strong> All content here are my opinions alone, and do not formally represent those of my employers - past, present, or future.</p>
+<h2 id="who-am-i">Who Am I?</h2>
+<p>Follow the links to find out more:</p>
 <ul>
+<li><a href="https://scott.maclure.info/cv/">https://scott.maclure.info/cv/</a></li>
 <li><a href="https://www.linkedin.com/in/scott-maclure/">https://www.linkedin.com/in/scott-maclure/</a></li>
 <li><a href="https://github.com/ScottMaclure/">https://github.com/ScottMaclure/</a></li>
 </ul>
+<h2 id="how-did-i-set-this-blog-up">How did I set this blog up?</h2>
+<p>Let&rsquo;s start with some desired outcomes:</p>
+<ul>
+<li>Keep it simple - strip back the end-end worklow to minimise moving parts.</li>
+<li>It&rsquo;s gotta be &ldquo;almost-free&rdquo; to host&hellip;</li>
+<li>AND there won&rsquo;t be any spikes in cost (beware free tiers in Cloud providers!)</li>
+<li>Its easy to author</li>
+<li>I can setup a minimalistic css theme without much effort</li>
+<li>It has tagging support</li>
+<li>I don&rsquo;t care about authoring from mobile - desktop|laptop will be fine.</li>
+</ul>
+<p>My solution:</p>
+<ul>
+<li>The maclure.info domain I had already registered via Amazon&rsquo;s Route 53 service. So I&rsquo;ll use R53 to manage DNS.</li>
+<li>The code for most of my projects are hosted on github, which has support for &ldquo;<a href="https://pages.github.com/">pages</a>&rdquo;, which is (free) static hosting, AND custom domain names are supported. Perfect.</li>
+<li><a href="https://gohugo.io/">Hugo</a> is a static site generator I&rsquo;ve used in the past, seems decent and fast, with some nice themes. That means I can locally compile, removing the need for an external build server.</li>
+</ul>
+<p>The end result is that I can do the following:</p>
+<ul>
+<li>I can run a local server and preview my drafts</li>
+<li>I can commit and push drafts up to github without changing the deployed site content</li>
+<li>I can configure Hugo to build the static site into /docs subfolder, which is compatible with github&rsquo;s hosting</li>
+<li>I can &ldquo;publish&rdquo; content by setting &ldquo;draft: false&rdquo; in the metadata, running the &ldquo;hugo&rdquo; binary, then git commit &amp; git push</li>
+<li>I maintain zero-infrastructure! Well, I manage a domain, that&rsquo;s it.</li>
+</ul>
+<h2 id="whats-next">What&rsquo;s next?</h2>
+<p>Over time I will write and publish blog posts focused around whatever I&rsquo;m learning or playing with at the time.</p>
+<p>This will mostly be for my learning benefit, as I find being able to write about a topic in a manner that explains it to someone else <em>really</em> helps me to internalise my own understanding of the content.</p>
+<p>So yeah, this blog is mainly for me, but written for public consumption also.</p>
+<p>Welcome.</p>
 ]]></content>
         </item>
         
