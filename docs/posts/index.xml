@@ -1,0 +1,33 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Scott&#39;s Test Blog</title>
+        <link>http://scott.maclure.info/tech/posts/</link>
+        <description>Recent content in Posts on Scott&#39;s Test Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sat, 25 Jul 2020 16:24:31 +0800</lastBuildDate>
+        <atom:link href="http://scott.maclure.info/tech/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Hello World</title>
+            <link>http://scott.maclure.info/tech/posts/hello-world/</link>
+            <pubDate>Sat, 25 Jul 2020 16:24:31 +0800</pubDate>
+            
+            <guid>http://scott.maclure.info/tech/posts/hello-world/</guid>
+            <description>Rationale Hello? Is this thing on? Good. Welcome, humble reader, to my tech blog. Here you will find all sorts of stuff that I&amp;rsquo;ve found interesting while working as a consultant and developer for cloud infrastructure and automation, with an eye for security &amp;amp; compliance concerns at scale.
+Disclaimer: All content here are my opinions, and do not formally represent those of my employers, past, present or future.
+Whoami?  https://www.</description>
+            <content type="html"><![CDATA[<h2 id="rationale">Rationale</h2>
+<p>Hello? Is this thing on? Good. Welcome, humble reader, to my tech blog. Here you will find all sorts of stuff that I&rsquo;ve found interesting while working as a consultant and developer for cloud infrastructure and automation, with an eye for security &amp; compliance concerns at scale.</p>
+<p><strong>Disclaimer:</strong> All content here are my opinions, and do not formally represent those of my employers, past, present or future.</p>
+<h2 id="whoami">Whoami?</h2>
+<ul>
+<li><a href="https://www.linkedin.com/in/scott-maclure/">https://www.linkedin.com/in/scott-maclure/</a></li>
+<li><a href="https://github.com/ScottMaclure/">https://github.com/ScottMaclure/</a></li>
+</ul>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

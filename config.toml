@@ -12,7 +12,7 @@ publishdir = "docs"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Subtitle for home
-  homeSubtitle = "Tech blog for a Cloud consultant"
+  homeSubtitle = "Tech blog for a Cloud consultant."
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
@@ -27,6 +27,14 @@ publishdir = "docs"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/scott-maclure/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/scottmaclure/"
 
 [taxonomies]
     category = "blog"
@@ -54,3 +62,8 @@ publishdir = "docs"
     identifier = "posts"
     name       = "Posts"
     url        = "/posts"
+
+  [[menu.main]]
+    identifier = "cv"
+    name       = "CV"
+    url        = "https://scott.maclure.info/cv/"
