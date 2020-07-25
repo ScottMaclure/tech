@@ -5,6 +5,9 @@ theme = "hello-friend-ng"
 paginate = 10
 publishdir = "docs"
 
+[Author]
+  name = "Scott Maclure"
+
 [permalinks]
   posts = "/posts/:year/:title/"
 
