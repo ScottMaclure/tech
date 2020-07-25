@@ -6,7 +6,7 @@ paginate = 10
 publishdir = "docs"
 
 [permalinks]
-  posts = "/:year/:title/"
+  posts = "/posts/:year/:title/"
 
 [params]
   dateform        = "Jan 2, 2006"
